@@ -1,0 +1,55 @@
+@media screen and (max-width: 1199px) {
+    .cabecalho {
+        font-size: 0.8rem;
+        padding: 30px;
+    }
+
+    main {
+        margin: 20px 0;
+    }
+
+    .resumo-financa .resumo {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-color-secundario);
+        width: 100%;
+        padding: 20px 0;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .resumo-financa i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .resumo-financa .resumo .titulo {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .resumo-financa .resumo .valor {
+        font-size: 1.1rem;
+    }
+
+    .estrutura {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-adicionar-transacao {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .resultado-transacao {
+        grid-template-columns: 1.5fr 1fr 0.5fr 0.5fr;
+        /* column-width: 100px; */
+    }
+
+    .resultado-transacao .titulo-transacao {
+        font-size: 1rem;
+    }
+}

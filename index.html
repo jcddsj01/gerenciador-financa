@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Gerenciador de Finanças</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <script src="./src/js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Gerenciador de Finanças</h1>
+    </header>
+
+    <main>
+        <div class="resumo-financa">
+            <div class="resumo">
+                <p class="titulo">Receitas</p>
+                <i class="fa-regular fa-circle-up fa-xl"></i>
+                <p class="valor" id="receitas">R$ 0,00</p>
+            </div>
+
+            <div class="resumo">
+                <p class="titulo">Despesas</p>
+                <i class="fa-regular fa-circle-down fa-xl"></i>
+                <p class="valor" id="despesas">R$ 0,00</p>
+            </div>
+
+            <div class="resumo">
+                <p class="titulo">Total</p>
+                <i class="fa-solid fa-brazilian-real-sign fa-xl"></i>
+                <p class="valor" id="total">R$ 0,00</p>
+            </div>
+        </div>
+
+        <div class="estrutura">
+            <div class="descricao">
+                <label for="">Descrição</label>
+                <input type="text" id="descricao">
+            </div>
+
+            <div class="valor">
+                <label for="">Valor</label>
+                <input type="number" id="valor">
+            </div>
+
+            <div class="transacao">
+                <div class="receita">
+                    <input type="radio" name="transacao" id="receita" value="receita" checked>
+                    <label for="receita">Receita</label>
+                </div>
+
+                <div class="despesa">
+                    <input type="radio" name="transacao" id="despesa" value="despesa">
+                    <label for="despesa">Despesa</label>
+                </div>
+            </div>
+
+            <button class="btn-adicionar-transacao" onclick="adicionarTransacao()">Adicionar</button>
+        </div>
+
+        <div class="resultado-transacao">
+            <p class="titulo-transacao">Descrição</p>
+            <p class="titulo-transacao">Valor</p>
+            <p class="titulo-transacao tipo">Tipo</p>
+            <p class="titulo-transacao acao">Ação</p>
+            <p id="resultado-descricao"></p>
+            <p id="resultado-valor"></p>
+            <p id="resultado-tipo"></p>
+
+            <p id="btn-deletar-resultado" class="btn-deletar-resultado"></p>
+        </div>
+    </main>
+
+    <!-- <footer class="rodape"></footer> -->
+</body>
+
+</html>
