@@ -2,7 +2,7 @@
 let listaTransacoes = [];
 let resultadoDescricao = document.getElementById("resultado-descricao");
 let resultadoValor = document.getElementById("resultado-valor");
-let resultadoTipo = document.getElementById("resultado-tipo");
+let resultadoTipo = document.getElementById("icone-resultado-tipo");
 let botaoDeletarResultado = document.getElementById("btn-deletar-resultado");
 
 let receitas = document.getElementById("receitas");
@@ -92,7 +92,6 @@ function criarParagrafo(texto) {
 function criarParagrafoComIconeTipo(tipo) {
     const paragrafo = criarParagrafo("");
     const icone = document.createElement("i");
-    icone.style.paddingLeft = "10px";
 
     if (tipo === "receita") {
         icone.style.color = "#008000";

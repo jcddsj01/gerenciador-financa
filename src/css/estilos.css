@@ -185,6 +185,12 @@ main {
     text-align: center;
 }
 
+.icone-resultado-tipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .resultado-transacao .btn-deletar-resultado {
     display: flex;
     align-items: center;
