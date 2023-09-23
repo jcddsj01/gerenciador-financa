@@ -10,7 +10,7 @@ Tecnologias Utilizadas:
 * [Google Fonts:](https://fonts.google.com/specimen/Sora) Utilizado para acessar e aplicar fontes personalizadas aos textos da página, melhorando a estilização e a legibilidade.
 * [GitHub Pages:](https://pages.github.com/) Plataforma de hospedagem gratuita para projetos estáticos, permitindo que o site seja acessível na web.
 
-Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](https://jcddsj01.github.io/gerenciador-financa/)
+Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](https://jcddsj01.github.io/gerenciador-financas/)
 
 ---
 
@@ -26,4 +26,4 @@ Technologies used:
 * [Google Fonts:](https://fonts.google.com/specimen/Sora) Used to access and apply custom fonts to page texts, improving stylization and readability.
 * [GitHub Pages:](https://pages.github.com/) Free hosting platform for static projects, allowing the website to be accessible on the web.
 
-Project deployment on GitHub Pages: [Explore the project by clicking here.](https://jcddsj01.github.io/gerenciador-financa/)
+Project deployment on GitHub Pages: [Explore the project by clicking here.](https://jcddsj01.github.io/gerenciador-financas/)
