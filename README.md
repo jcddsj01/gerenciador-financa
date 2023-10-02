@@ -1,3 +1,11 @@
+<h1 align="center">
+  Gerenciador de Finanças
+</h1>
+
+<div align="center">
+  <img src="src/img/gerenciador-financas.png" width="100%" />
+</div>
+
 ## Projeto - Gerenciador de Finanças <br> Desenvolvido por minha autoria | José Carlos • jcddsj01
 
 Este projeto foi desenvolvido para proporcionar uma ferramenta de gestão financeira pessoal. Ele permite que os usuários registrem suas receitas e despesas, calculem o total acumulado e oferece a capacidade de corrigir informações incorretas ou obsoletas com um simples botão. Você pode facilmente inserir detalhes, como uma descrição e o valor (seja uma receita ou despesa), utilizando um botão para adicionar esses dados de forma eficaz.
