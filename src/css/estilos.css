@@ -189,6 +189,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .resultado-transacao .btn-deletar-resultado {
