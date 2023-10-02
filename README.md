@@ -6,7 +6,7 @@
   <img src="src/img/gerenciador-financas.png" width="100%" />
 </div>
 
-## Projeto - Gerenciador de Finanças <br> Desenvolvido por minha autoria | José Carlos • jcddsj01
+## Projeto - Gerenciador de Finanças
 
 Este projeto foi desenvolvido para proporcionar uma ferramenta de gestão financeira pessoal. Ele permite que os usuários registrem suas receitas e despesas, calculem o total acumulado e oferece a capacidade de corrigir informações incorretas ou obsoletas com um simples botão. Você pode facilmente inserir detalhes, como uma descrição e o valor (seja uma receita ou despesa), utilizando um botão para adicionar esses dados de forma eficaz.
 
@@ -20,9 +20,12 @@ Tecnologias Utilizadas:
 
 Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](https://jcddsj01.github.io/gerenciador-financas/)
 
+Créditos:
+* Criado por minha autoria | [José Carlos • jcddsj01](https://github.com/jcddsj01)
+
 ---
 
-## Project - Finance Manager <br> Developed by me | José Carlos • jcddsj01
+## Project - Finance Manager
 
 This project was developed to provide a personal financial management tool. It allows users to record their income and expenses, calculate the cumulative total and offers the ability to correct incorrect or obsolete information with a simple button. You can easily enter details, such as a description and the amount (whether it's an income or expense), using a button to add this data effectively.
 
@@ -33,5 +36,8 @@ Technologies used:
 * [Font Awesome:](https://fontawesome.com/search?o=r&m=free&f=classic) Font Awesome is a library of icons and symbols ready to be incorporated into websites and applications to improve their aesthetics and usability. These icons can be customized and scaled with ease.
 * [Google Fonts:](https://fonts.google.com/specimen/Sora) Used to access and apply custom fonts to page texts, improving stylization and readability.
 * [GitHub Pages:](https://pages.github.com/) Free hosting platform for static projects, allowing the website to be accessible on the web.
+
+Credits:
+* Created by me | [José Carlos • jcddsj01](https://github.com/jcddsj01)
 
 Project deployment on GitHub Pages: [Explore the project by clicking here.](https://jcddsj01.github.io/gerenciador-financas/)
