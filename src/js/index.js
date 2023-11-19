@@ -95,10 +95,10 @@ function criarParagrafoComIconeTipo(tipo) {
 
     if (tipo === "receita") {
         icone.style.color = "#008000";
-        icone.className = "fa-regular fa-circle-up fa-lg";
+        icone.className = "fa-regular fa-circle-down fa-lg";
     } else {
         icone.style.color = "#ff0000";
-        icone.className = "fa-regular fa-circle-down fa-lg";
+        icone.className = "fa-regular fa-circle-up fa-lg";
     }
 
     paragrafo.appendChild(icone);
